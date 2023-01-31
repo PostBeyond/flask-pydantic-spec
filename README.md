@@ -150,4 +150,4 @@ You can use [`pydantic.root_validators(pre=True)`](https://pydantic-docs.helpman
 
 > ValidationError: value is not a valid list for query
 
-Since there is no standard for HTTP query with multiple values, it's hard to find the way to handle this for different web frameworks. So I suggest not to use list type in query until I find a suitable way to fix it.
+Since there is no standard way for HTTP query with multiple values, it's hard to find the way to handle this for different web frameworks. So I suggest not to use list type in query until I find a suitable way to fix it.
